@@ -1,0 +1,28 @@
+#profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    size: 25%;
+}
+
+.favicon-row{
+    text-align:center;
+}
+
+.centered-favicon{
+    display: inline-block;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    height:60px;
+    width: auto;
+}
+
+.centered-text{
+    text-align:center;
+}
+
+.no-border{
+    border: 1px solid #e5e5e5
+}
