@@ -2,27 +2,34 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    size: 25%;
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+
 }
 
-.favicon-row{
-    text-align:center;
+.favicon-row {
+    text-align: center;
 }
 
-.centered-favicon{
+.card-div{
+    padding:10px;
+}
+
+.centered-favicon {
     display: inline-block;
     padding: 4px;
     margin-left: auto;
     margin-right: auto;
-    height:60px;
+    height: 60px;
     width: auto;
 }
 
-.centered-text{
-    text-align:center;
+.centered-text {
+    text-align: center;
 }
 
-.no-border{
+.no-border {
     border: 1px solid #e5e5e5
 }
