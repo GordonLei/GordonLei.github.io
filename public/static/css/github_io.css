@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
 .card-div{
     padding:10px;
 }
