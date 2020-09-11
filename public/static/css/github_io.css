@@ -1,3 +1,19 @@
+/* Bootstrap overriders */
+
+.carousel-inner > .carousel-item > img{ 
+    height: 400px; 
+    width: auto; 
+    margin: auto;
+}
+
+.carousel-control-next-icon.invertColor,
+.carousel-control-prev-icon.invertColor,
+.carousel-indicators.invertColor {
+  filter: invert(1);
+}
+
+/* Custom CSS */
+
 #profile {
     display: block;
     margin-left: auto;
@@ -21,6 +37,8 @@
 .card-div{
     padding:10px;
 }
+
+
 
 .centered-favicon {
     display: inline-block;
