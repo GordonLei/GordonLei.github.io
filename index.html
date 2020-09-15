@@ -21,18 +21,21 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
             <ul class="navbar-nav">
+                <!--
                 <li class="nav-item active">
                     <a class="nav-link" href="#contacts">Contact <span class="sr-only">(current)</span></a>
                 </li>
+                -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#aboutMe">About Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#hobbies">Hobbies</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#resume">Resume</a>
                 </li>
@@ -45,69 +48,290 @@
     <div class="jumbotron">
         <h1>A Work In Progress</h1>
     </div>
-    -->
+    
     <p id="contacts"></p>
     <br>
     <br>
     <br>
+    -->
 
     <!-- THIS PART IS BASICALLY THE HEADER/CONTACT INFORMATION -->
 
     <div class="centered-text">
-        <h1>Gordon Lei</h1>
-    </div>
-
-    <img src="public/static/images/profile.png" alt="profile image" id="profile">
-    <div class="centered-text card border-0">
-        <div class="card-body ">
-            <p>Email: lei.gordon@nyu.edu</p>
-            <p>Phone number: 917-745-7856</p>
-        </div>
-    </div>
-
-    <div class="favicon-row">
-        <a href="https://github.com/GordonLei">
-            <img src="public\static\favicons\GitHub-Mark-64px.png" alt="GitHub logo" class="centered-favicon">
-        </a>
-        <a href="https://linkedin.com/in/gordon-lei-a1b238181">
-            <img src="public\static\favicons\LI-In-Bug.png" alt="LinkedIn logo" class="centered-favicon">
-        </a>
-    </div>
-
-    <!-- THIS PART IS THE ABOUT ME -->
-    <div class="section">
+        <br>
+        <br>
+        <br>
         <div class="card border-0">
             <div class="card-body">
-                <h3 class="card-title">About Me</h3>
-                <p>Hi! My name is Gordon Lei, a current undergraduate studying computer science at New York University
-                    Tandon School of Engineering.
-                    I have worked as a TA for a summer Object-Oriented Programming course at Tandon during the summer of
-                    2019. I was sadly not able
-                    to participate in an internship over this past summer (summer of 2020), I spent this summer taking
-                    online courses/resources to
-                    learn new tools that I've always heard about but never really used before, such as Docker and
-                    Node.js.
-                    In this time of COVID-19,
-                    I've also had the opportunity to pursue interests other than computer science, mainly cooking. I
-                    can't
-                    make restaurant-worthy food, but it's a start!
+                <div class="row">
+                    <div class="col-sm-6 text-left">
+                        <!-- image -->
+                        <img src="public/static/images/profile.png" alt="profile image" id="profile">
+                    </div>
+                    <div class="col-sm-6 align-middle centered-text">
+                        
+                            <h1 class> Gordon Lei</h1>
+                            <h3> Undergraduate at NYU Tandon School of Engineering </h3>
+                            <p>Email: <a href="mailto: lei.gordon@nyu.edu">lei.gordon@nyu.edu</a></p>
+                            <p>Phone number: 917-745-7856</p>
+                        
+                        <div class="favicon-row">
+                            <a href="https://github.com/GordonLei">
+                                <img src="public\static\favicons\GitHub-Mark-64px.png" alt="GitHub logo"
+                                    class="centered-favicon">
+                            </a>
+                            <a href="https://linkedin.com/in/gordon-lei-a1b238181">
+                                <img src="public\static\favicons\LI-In-Bug.png" alt="LinkedIn logo"
+                                    class="centered-favicon">
+                            </a>
+                        </div>
 
-                    Currently, I am taking a course that includes the topics of or is named introduction to Databases,
-                    Intro
-                    to Operating Systems, Software Engineering, and Artificial Intelligence.
-                </p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
+
+
+
+
+
+
+    <!-- THIS PART IS THE ABOUT ME -->
+    <section id = "aboutMe">
+        <p id="aboutMe"></p>
+            <br>
+            <br>
+        <div class="card border-0">
+            <div class="card-body">
+                <h3 class="card-title centered-text">About Me</h3>
+                <p>Hi! My name is Gordon Lei, a current undergraduate studying computer science at New York University
+                    Tandon School of Engineering.
+                    My passion for computer science sprouted from a common middle-school student's toolkit: a TI-84 graphing calculator.
+                    At the very start of the semester, our teacher showed us the manual for the calculator, encouraging us to read it and 
+                    learn about how to write functions within the calculator. At first, I only made simple programs such as plugging numbers into
+                    equations like the quadratic equation or simple games like the 24-counting game. The more and more I programmed, the more I fell 
+                    in love with it, eventually causing me to join our middle school's new Computer Science Club and getting the first taste of HTML and 
+                    CSS, even creating a program to help track life points in Yu-Gi-Oh (a popular trading card game my friends and I played in middle school) 
+                    to use during our school's overnight trip (imagine bringing a calculator to camping!), and finally pursueing a computer science track in the last 
+                    two years of high school and currently a bachelor of science in comptuer science. 
+                    
+                </p>
+                <p>
+                    Currently, I am taking a course that includes the topics of, or is named, Introduction to Databases,
+                    Intro
+                    to Operating Systems, Software Engineering, and Artificial Intelligence.
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id ="hobbies">
+        <div class="inside-section-div">
+            <h3> Hobbies </h3>
+            <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div id="hobby_1_indicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <ol class="carousel-indicators invertColor">
+                                <li data-target="#hobby_1_indicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#hobby_1_indicators" data-slide-to="1"></li>
+                                <!-- 
+                                <li data-target="#hobby_1_indicators" data-slide-to="2"></li>
+                                -->
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block  card-img-top"
+                                        src="public/static/images/keyboards/keyboard_2.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block  card-img-top"
+                                        src="public/static/images/keyboards/keyboard_1.jpg" alt="Second slide">
+                                </div>
+                                <!-- 
+                                <div class="carousel-item">
+                                    <img class="d-block  card-img-top" src="public/static/images/temp.png"
+                                        alt="Third slide">
+                                </div>
+                                -->
+                            </div>
+                            <a class="carousel-control-prev" href="#hobby_1_indicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon invertColor" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#hobby_1_indicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon invertColor" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <h5 class="card-title"> Mechanical Keyboards </h5>
+                        <p class="card-text">
+                            I currently have a growing interest in mechanical keyboards. Something about those fancy
+                            plastic squares and switches
+                            intrigues me. I do not own a custom mechanical keyboard but I'm eagerly waiting for a
+                            keyboard to catch my
+                            eye. Right now I own H1, Holy Panda, and Novelkey Creams as well as a set of GMK Olivia.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <div id="hobby_2_indicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <ol class="carousel-indicators invertColor">
+                                <li data-target="#hobby_2_indicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#hobby_2_indicators" data-slide-to="1"></li>
+                                <li data-target="#hobby_2_indicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block  card-img-top" src="public/static/images/cooking/cooking_1.jpg"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block  card-img-top" src="public/static/images/cooking/cooking_2.jpg"
+                                        alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block  card-img-top" src="public/static/images/cooking/cooking_3.jpg"
+                                        alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#hobby_2_indicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon invertColor" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#hobby_2_indicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon invertColor" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <h5 class="card-title"> Cooking </h5>
+                        <p class="card-text">
+                            The one good thing that COVID-19 affected me was that I had more time to learn how to cook.
+                            A little embarrassing to say but I never
+                            learned how to crack an egg until this summer. I remember eating lunch with my friends and I
+                            had to crack an egg into our soup; however when
+                            I tried to open the egg, I used too much force and completely shattered the egg over my
+                            pants. During this summer, I helped my grandma prepare dishes for dinner and sometimes lunch
+                            for my brother.
+                            They are not exactly restaurant-worthy meals nor do they look deluxe and grand
+                            (and most of the times they're a little salty) but I am very proud of the first step I am
+                            taking.
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div id="hobby_3_indicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <ol class="carousel-indicators invertColor">
+                                <li data-target="#hobby_3_indicators" data-slide-to="0" class="active"></li>
+                                <!--
+                                <li data-target="#hobby_1_indicators" data-slide-to="1"></li>
+                                <li data-target="#hobby_1_indicators" data-slide-to="2"></li>
+                                -->
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block  card-img-top" src="public/static/images/pool/pool_1.jpg"
+                                        alt="First slide">
+                                </div>
+                                <!--
+                                <div class="carousel-item">
+                                    <img class="d-block  card-img-top" src="public/static/images/temp.png"
+                                        alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block  card-img-top" src="public/static/images/temp.png"
+                                        alt="Third slide">
+                                </div>
+                                -->
+                            </div>
+                            <a class="carousel-control-prev" href="#hobby_3_indicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon invertColor" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#hobby_3_indicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon invertColor" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <h5 class="card-title"> Pool </h5>
+                        <p class="card-text">
+                            I am not a very good pool player but ever since my friend taught me how to play it
+                            during freshmen year, I have grown toward pool.
+                            I can't do topsins or hopping the ball but it's very fun (and almost soothing) simply
+                            hitting the ball into the holes.
+                            We both split the cost of a cheap pool cue because the public pool cues at our university
+                            almost always
+                            have their tips missing or barely hanging on for some reason.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- THIS PART IS THE SKILLS -->
+    <section id = "skills">
+        <div class="inside-section-div">
+            <p id="skills"></p>
+            <br>
+            <br>
+            <h3> Skills </h3>
+
+            <p class = "centered-text"> Below are the skills I posses. 
+                I'm always trying to learn new techniques or technologies whether it be for the frontend or the backend.
+            </p>
+
+
+            <h5 class="centered-text"> Proficient at: </h5>
+            <div class="favicon-row">
+                <img src="public/static/favicons/python.png" alt="Python logo" class="centered-favicon">
+                <img src="public/static/favicons/cpp_logo.png" alt="C++ logo" class="centered-favicon">
+            </div>
+
+            <h5 class="centered-text"> Intermediate at: </h5>
+            <div class="favicon-row">
+                <img src="public/static/favicons/html.png" alt="HTML logo" class="centered-favicon">
+                <img src="public/static/favicons/css.png" alt="CSS logo" class="centered-favicon">
+                <img src="public/static/favicons/java.png" alt="Java logo" class="centered-favicon">
+                <img src="public/static/favicons/js.png" alt="Javascript logo" class="centered-favicon">
+                <img src="public/static/favicons/nodejs.png" alt="Node.js logo" class="centered-favicon">
+                <img src="public/static/favicons/express.png" alt="Express logo" class="centered-favicon">
+                <img src="public/static/favicons/bootstrap.png" alt="Bootstrap logo" class="centered-favicon">
+            </div>
+
+            <h5 class="centered-text"> Beginner at: </h5>
+            <div class="favicon-row">
+                <img src="public/static/favicons/react.png" alt="react logo" class="centered-favicon">
+                <img src="public/static/favicons/unity.png" alt="unity logo" class="centered-favicon">
+            </div>
+        </div>
+    </section>
+
     <!-- THIS PART IS FOR PROJECTS -->
-    <div class="section">
+    <section class = "projects">
         <!-- INDIVIDUAL CARD NUMBER 0-->
         <div class="card-div col-sm-12">
             <p id="projects"></p>
             <br>
             <br>
-
             <h3>Completed Projects</h3>
+
+            <p class = "centered-text"> 
+                These are eight projects that I have participated in, most of which are what are pinned on my GitHub profile.
+            </p>
+
             <div class="card">
                 <h3 class="card-header">Candy Cannival</h3>
                 <div class="card-body">
@@ -203,9 +427,6 @@
 
                     </div>
                 </div>
-                <div class="card-body">
-
-                </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated May 2020 @ <a href="https://nekonek0.itch.io/candy-cann"
                             alt="itch.io page">Itch.io page</a></small>
@@ -253,16 +474,16 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block  card-img-top" src="public/static/images/space_game/space_1.gif"
-                                            alt="First slide">
+                                        <img class="d-block  card-img-top"
+                                            src="public/static/images/space_game/space_1.gif" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block  card-img-top" src="public/static/images/space_game/space_2.gif"
-                                            alt="Second slide">
+                                        <img class="d-block  card-img-top"
+                                            src="public/static/images/space_game/space_2.gif" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block  card-img-top" src="public/static/images/space_game/space_3.gif"
-                                            alt="Third slide">
+                                        <img class="d-block  card-img-top"
+                                            src="public/static/images/space_game/space_3.gif" alt="Third slide">
                                     </div>
                                     <!--
                                     <div class="carousel-item">
@@ -284,9 +505,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="card-body">
-
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated December 11, 2019 @ <a
@@ -316,20 +534,20 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block  card-img-top" src="public/static/images/platformer/platformer_1.gif"
-                                            alt="First slide">
+                                        <img class="d-block  card-img-top"
+                                            src="public/static/images/platformer/platformer_1.gif" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block  card-img-top" src="public/static/images/platformer/platformer_2.gif"
-                                            alt="Second slide">
+                                        <img class="d-block  card-img-top"
+                                            src="public/static/images/platformer/platformer_2.gif" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block  card-img-top" src="public/static/images/platformer/platformer_3.gif"
-                                            alt="Third slide">
+                                        <img class="d-block  card-img-top"
+                                            src="public/static/images/platformer/platformer_3.gif" alt="Third slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block  card-img-top" src="public/static/images/platformer/platformer_4.png"
-                                            alt="Fourth slide">
+                                        <img class="d-block  card-img-top"
+                                            src="public/static/images/platformer/platformer_4.png" alt="Fourth slide">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#project2_indicators" role="button"
@@ -359,11 +577,8 @@
 
                     </div>
                 </div>
-                <div class="card-body">
-
-                </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">Last updated November 19, 2019 @ <a href="https://github.com/GordonLei/Return-of-the-King" alt="platformer link"> GitHub Repo Link</a></small>
                 </div>
             </div>
         </div>
@@ -587,9 +802,7 @@
 
                     </div>
                 </div>
-                <div class="card-body">
 
-                </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated April 23, 2018 @ <a
                             href="https://github.com/jacqxu00/SProject01Data" alt="NBA statistics link">GitHub Repo
@@ -670,9 +883,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-body">
 
-                </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated January 23, 2018 @ <a
                             href="https://github.com/xchen5/blackPants">GitHub Repo Link </a></small>
@@ -759,9 +970,6 @@
                         </div>
 
                     </div>
-                </div>
-                <div class="card-body">
-
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated December 21, 2017 @ <a
@@ -863,24 +1071,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-body">
-
-                </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated June 13, 2017 @ <a
                             href="https://github.com/GordonLei/BindingOfRug">GitHub Repo Link </a></small>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!-- INDIVIDUAL CARD END -->
 
 
-    <div class="section">
+    <section id = "projectsWIP">
         <div class="card-div col-sm-12">
             <h3>Work In Progress Projects</h3>
+            <p class = "centered-text"> 
+                These are projects that are either in the planning or wireframe phase or are projects that I am currently working on. 
+            </p>
             <div class="card">
                 <h3 class="card-header">KeySwitch</h3>
                 <div class="card-body">
@@ -939,207 +1147,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-body">
-
-                </div>
                 <div class="card-footer">
                     <small class="text-muted">In planning phase @ <a href="https://github.com/GordonLei/KeySwitch"
                             alt="KeySwitch link">GitHub Repo Link</a></small>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- INDIVIDUAL CARD END -->
-    <!-- THIS PART IS THE SKILLS -->
-    <div class="section">
-        <div class="inside-section-div">
-            <p id="skills"></p>
-            <br>
-            <br>
-            <h3> Skills </h3>
 
-
-            <h5 class="centered-text"> Proficient at: </h5>
-            <div class="favicon-row">
-                <img src="public/static/favicons/python.png" alt="Python logo" class="centered-favicon">
-                <img src="public/static/favicons/cpp_logo.png" alt="C++ logo" class="centered-favicon">
-            </div>
-
-            <h5 class="centered-text"> Intermediate at: </h5>
-            <div class="favicon-row">
-                <img src="public/static/favicons/html.png" alt="HTML logo" class="centered-favicon">
-                <img src="public/static/favicons/css.png" alt="CSS logo" class="centered-favicon">
-                <img src="public/static/favicons/java.png" alt="Java logo" class="centered-favicon">
-                <img src="public/static/favicons/js.png" alt="Javascript logo" class="centered-favicon">
-                <img src="public/static/favicons/nodejs.png" alt="Node.js logo" class="centered-favicon">
-                <img src="public/static/favicons/express.png" alt="Express logo" class="centered-favicon">
-                <img src="public/static/favicons/bootstrap.png" alt="Bootstrap logo" class="centered-favicon">
-            </div>
-
-            <h5 class="centered-text"> Beginner at: </h5>
-            <div class="favicon-row">
-                <img src="public/static/favicons/react.png" alt="react logo" class="centered-favicon">
-                <img src="public/static/favicons/unity.png" alt="unity logo" class="centered-favicon">
-            </div>
-        </div>
-    </div>
     <!-- THIS PART IS THE HOBBIES -->
-    <div class="section">
-        <div class="inside-section-div">
-            <p id="hobbies"></p>
-            <br>
-            <br>
-            <h3> Hobbies </h3>
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <div id="hobby_1_indicators" class="carousel slide" data-ride="carousel" data-interval="false">
-                            <ol class="carousel-indicators invertColor">
-                                <li data-target="#hobby_1_indicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#hobby_1_indicators" data-slide-to="1"></li>
-                                <!-- 
-                                <li data-target="#hobby_1_indicators" data-slide-to="2"></li>
-                                -->
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block  card-img-top"
-                                        src="public/static/images/keyboards/keyboard_2.jpg" alt="First slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block  card-img-top"
-                                        src="public/static/images/keyboards/keyboard_1.jpg" alt="Second slide">
-                                </div>
-                                <!-- 
-                                <div class="carousel-item">
-                                    <img class="d-block  card-img-top" src="public/static/images/temp.png"
-                                        alt="Third slide">
-                                </div>
-                                -->
-                            </div>
-                            <a class="carousel-control-prev" href="#hobby_1_indicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon invertColor" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#hobby_1_indicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon invertColor" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        <h5 class="card-title"> Mechanical Keyboards </h5>
-                        <p class="card-text">
-                            I currently have a growing interest in mechanical keyboards. Something about those fancy
-                            plastic squares and switches
-                            intrigues me. I do not own a custom mechanical keyboard but I'm eagerly waiting for a
-                            keyboard to catch my
-                            eye. Right now I own H1, Holy Panda, and Novelkey Creams as well as a set of GMK Olivia.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-
-                    <div class="card-body">
-                        <div id="hobby_2_indicators" class="carousel slide" data-ride="carousel" data-interval="false">
-                            <ol class="carousel-indicators invertColor">
-                                <li data-target="#hobby_2_indicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#hobby_2_indicators" data-slide-to="1"></li>
-                                <li data-target="#hobby_2_indicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block  card-img-top" src="public/static/images/cooking/cooking_1.jpg"
-                                        alt="First slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block  card-img-top" src="public/static/images/cooking/cooking_2.jpg"
-                                        alt="Second slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block  card-img-top" src="public/static/images/cooking/cooking_3.jpg"
-                                        alt="Third slide">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#hobby_2_indicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon invertColor" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#hobby_2_indicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon invertColor" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        <h5 class="card-title"> Cooking </h5>
-                        <p class="card-text">
-                            The one good thing that COVID-19 affected me was that I had more time to learn how to cook.
-                            A little embarrassing to say but I never
-                            learned how to crack an egg until this summer. I remember eating lunch with my friends and I
-                            had to crack an egg into our soup; however when
-                            I tried to open the egg, I used too much force and completely shattered the egg over my
-                            pants. During this summer, I helped my grandma prepare dishes for dinner and sometimes lunch
-                            for my brother.
-                            They are not exactly restaurant-worthy meals nor do they look deluxe and grand
-                            (and most of the times they're a little salty) but I am very proud of the first step I am
-                            taking.
-
-                        </p>
-
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <div id="hobby_3_indicators" class="carousel slide" data-ride="carousel" data-interval="false">
-                            <ol class="carousel-indicators invertColor">
-                                <li data-target="#hobby_3_indicators" data-slide-to="0" class="active"></li>
-                                <!--
-                                <li data-target="#hobby_1_indicators" data-slide-to="1"></li>
-                                <li data-target="#hobby_1_indicators" data-slide-to="2"></li>
-                                -->
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block  card-img-top" src="public/static/images/pool/pool_1.jpg"
-                                        alt="First slide">
-                                </div>
-                                <!--
-                                <div class="carousel-item">
-                                    <img class="d-block  card-img-top" src="public/static/images/temp.png"
-                                        alt="Second slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block  card-img-top" src="public/static/images/temp.png"
-                                        alt="Third slide">
-                                </div>
-                                -->
-                            </div>
-                            <a class="carousel-control-prev" href="#hobby_3_indicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon invertColor" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#hobby_3_indicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon invertColor" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        <h5 class="card-title"> Pool </h5>
-                        <p class="card-text">
-                            I am not a very good pool player but ever since my friend taught me how to play it
-                            during freshmen year, I have grown toward pool. 
-                            I can't do topsins or hopping the ball but it's very fun (and almost soothing) simply
-                            hitting the ball into the holes.
-                            We both split the cost of a cheap pool cue because the public pool cues at our university almost always 
-                            have their tips missing or barely hanging on for some reason.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    
     <!-- THIS PART IS THE RESUME -->
-    <div class="section">
+    <section id = "resume">
         <div class="inside-section-div">
             <p id="resume"></p>
             <br>

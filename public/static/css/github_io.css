@@ -17,7 +17,10 @@
 }
 
 /* Custom CSS */
-
+#aboutMe {
+    padding-left: 30%;
+    padding-right: 30%;
+}
 #profile {
     display: block;
     margin-left: auto;
@@ -55,12 +58,14 @@
 
 .centered-text {
     text-align: center;
+    vertical-align: middle;
+    justify-content: center;
 }
 
 .no-border {
     border: 1px solid #e5e5e5
 }
 
-.section{
+section{
     padding: 10px;
 }
