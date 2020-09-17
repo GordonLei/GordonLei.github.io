@@ -5,6 +5,7 @@
     max-height:100%;
     width: auto; 
     height: auto; 
+    margin: auto;
 }
 
 .carousel-control-next-icon.invertColor,
@@ -38,7 +39,7 @@
 
 }
 
-#projects, #projectsWIP, #hobbies, #resume{
+#experience, #hobbies, #projects, #projectsWIP, #resume{
     padding-left: 10%;
     padding-right: 10%;
 }
