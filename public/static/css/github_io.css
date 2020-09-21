@@ -18,9 +18,7 @@
     margin: 10px 0px 0px;
 }
 
-.card-body{
-    padding-bottom: 0px;
-}
+
 
 /* Custom CSS */
 #aboutMe, #skills{
@@ -44,11 +42,12 @@
     padding-right: 10%;
 }
 
-#skills, #projectsWIP{
+#skills, #projectsWIP, #hobbies{
     background-color: #494f49;
     
 }
 
+#hobbies > p, #hobbies > h3, 
 #skills > p, #projectsWIP > p, 
 #skills > h3, #projectsWIP > h3,
 #skills > h5, #projectsWIP > h5{
