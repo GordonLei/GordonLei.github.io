@@ -42,15 +42,19 @@
     padding-right: 10%;
 }
 
-#skills, #projectsWIP, #hobbies{
+#experience, #projects, #resume{
     background-color: #494f49;
     
 }
 
-#hobbies > p, #hobbies > h3, 
-#skills > p, #projectsWIP > p, 
-#skills > h3, #projectsWIP > h3,
-#skills > h5, #projectsWIP > h5{
+#experience > p, 
+#experience > h5,
+#experience > h3,  
+#experience > h4, 
+#projects > p, 
+#projects > h3, 
+#resume > h3, 
+#projectsWIP > h3{
     color:#ffffff;
 }
 
