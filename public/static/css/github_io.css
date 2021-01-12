@@ -53,9 +53,13 @@
 #experience > h4, 
 #projects > p, 
 #projects > h3, 
-#resume > h3, 
-#projectsWIP > h3{
+#resume > h3,
+footer > p{
     color:#ffffff;
+}
+
+footer > p > a:link{
+    color:#06f54da1;
 }
 
 .favicon-row {
