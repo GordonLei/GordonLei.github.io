@@ -93,3 +93,7 @@ footer > p > a:link{
 section{
     padding: 25px;
 }
+
+hr{
+    background-color:#6cc56c
+}
